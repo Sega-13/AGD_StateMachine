@@ -13,6 +13,13 @@ namespace StatePattern.StateMachine
         {
             this.Owner = Owner;
         }
+        protected void SetOwner()
+        {
+            foreach (IState state in States.Values)
+            {
+                state.Owner = Owner;
+            }
+        }
         public void Update() => currentState?.Update();
 
         protected void ChangeState(IState newState)
