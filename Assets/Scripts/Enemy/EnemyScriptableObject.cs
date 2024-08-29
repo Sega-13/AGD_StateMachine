@@ -20,7 +20,7 @@ namespace StatePattern.Enemy
         public float IdleTime;
         public float RotationSpeed;
         public float RotationThreshold;
-
+        public float TeleportingRadius;
         public BulletScriptableObject BulletData;
         public float RateOfFire;
 

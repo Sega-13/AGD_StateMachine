@@ -60,6 +60,9 @@ namespace StatePattern.Enemy
                 case EnemyType.PatrolMan:
                     enemy = new PatrolManController(enemyScriptableObject);
                     break;
+                case EnemyType.Hitman:
+                    enemy = new HitManController(enemyScriptableObject);
+                    break;
                 default:
                     enemy = new EnemyController(enemyScriptableObject);
                     break;
