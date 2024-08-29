@@ -30,4 +30,4 @@ MonoBehaviour:
   - {x: 7.5, y: 1.5, z: -3}
   - {x: 7.5, y: 1.5, z: -10}
   PlayerStoppingDistance: 3
-  CloneCount: 4
+  CloneCount: 2

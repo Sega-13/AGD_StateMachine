@@ -238,11 +238,11 @@ MonoBehaviour:
   enemyGraphic: {fileID: 948247519215704207}
   enemyColors:
   - Type: 0
-    Color: {r: 0.08775356, g: 0.8350115, b: 0.9622642, a: 0}
+    Color: {r: 1, g: 1, b: 1, a: 1}
   - Type: 1
-    Color: {r: 0.10980391, g: 0.24353297, b: 0.95686275, a: 0}
+    Color: {r: 0.10980391, g: 0.24353297, b: 0.95686275, a: 1}
   - Type: 2
-    Color: {r: 0.03921567, g: 0.15465827, b: 0.9607843, a: 0.61960787}
+    Color: {r: 0.03921567, g: 0.15465827, b: 0.9607843, a: 1}
 --- !u!135 &3773479111711626245
 SphereCollider:
   m_ObjectHideFlags: 0

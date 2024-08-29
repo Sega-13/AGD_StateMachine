@@ -15,7 +15,7 @@ namespace StatePattern.Enemy
            
             SetCloneCount(enemyScriptableObject.CloneCount);
             enemyView.SetController(this);
-           // ChangeColor(EnemyColorType.Default);
+            ChangeColor(EnemyColorType.Default);
             CreateStateMachine();
             stateMachine.ChangeState(States.IDLE);
 
