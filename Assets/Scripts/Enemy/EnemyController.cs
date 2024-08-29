@@ -46,7 +46,7 @@ namespace StatePattern.Enemy
             Agent.SetDestination(enemyScriptableObject.SpawnPosition);
             Agent.speed = enemyScriptableObject.MovementSpeed;
         }
-
+        public void ToggleEnemyColor(EnemyColorType colorToSet) => enemyView.ChangeColor(colorToSet);
         public virtual void Die() 
         {
             GameService.Instance.EnemyService.EnemyDied(this);
